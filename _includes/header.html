@@ -2,12 +2,26 @@
   <div class="header__container">
     <div class="header__brand">
         <a href="{{ '/' | relative_url }}">
-        {% if site.show_govuk_logo %}
-          <span class="govuk-logo">
-            <img class="govuk-logo__printable-crown" src="{{ "/images/gov.uk_logotype_crown_invert_trans.png" | relative_url }}" height="32" width="36">
-            GOV.UK
-          </span>
-        {% endif %}
+          <svg version="1.1" xml:space="preserve" width="40" height="40" viewBox="0 0 180 180" style="margin-bottom: -7px;">            
+            <g>
+            <polygon points="85.1,134.4 70.9,126.2 70.9,109.6 85.1,101.3 99.3,109.6 99.3,126.2 	" />
+            <polygon points="85.1,167.5 70.9,159.3 70.9,142.7 85.1,134.4 99.3,142.7 99.3,159.3 	" />
+            <polygon points="56.8,84.8 42.6,76.5 42.6,59.9 56.8,51.7 70.9,59.9 70.9,76.5 	" />
+            <polygon points="56.8,117.9 42.6,109.6 42.6,93.1 56.8,84.8 70.9,93.1 70.9,109.6 	" />
+            <polygon points="56.8,151 42.6,142.7 42.6,126.2 56.8,117.9 70.9,126.2 70.9,142.7 	" />
+            <polygon points="28.4,101.3 28.4,68.2 42.6,76.5 42.6,93.1 	" />
+            <polygon points="28.4,134.4 28.4,101.3 42.6,109.6 42.6,126.2 	" />
+            </g>
+            <g>
+            <polygon points="85.1,68.2 70.9,59.9 70.9,43.4 85.1,35.1 99.3,43.4 99.3,59.9 " />
+            <polygon points="85.1,101.3 70.9,93.1 70.9,76.5 85.1,68.2 99.3,76.5 99.3,93.1 " />
+            <polygon points="113.5,84.8 99.3,76.5 99.3,59.9 113.5,51.7 127.7,59.9 127.7,76.5 " />
+            <polygon points="113.5,117.9 99.3,109.6 99.3,93.1 113.5,84.8 127.7,93.1 127.7,109.6 " />
+            <polygon points="113.5,151 99.3,142.7 99.3,126.2 113.5,117.9 127.7,126.2 127.7,142.7 " />
+            <polygon points="141.9,101.3 127.7,93.1 127.7,76.5 141.9,68.2 " />
+            <polygon points="141.9,134.4 127.7,126.2 127.7,109.6 141.9,101.3 " />
+            </g>
+        </svg>
         <span class="header__title">
           {{ site.title }}
           {% if site.phase %}

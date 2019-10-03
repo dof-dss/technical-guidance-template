@@ -1,8 +1,8 @@
 # Technical guidance
 
-How we build and operate products at the Ministry of Justice. This repo
+How we build and operate products at the Digital Shared Services. This repo
 is inspired by, and borrows from, [GDS's technical guidance][gds-way]
-site.
+site as well as the Ministry of Justice [technical guidance template](https://ministryofjustice.github.io/technical-guidance/#moj-technical-guidance)
 
 It's built using [Jekyll][], and hosted using [GitHub Pages][]. It
 incorporates HTML, SCSS, JavaScript, and images from [GDS's Tech Docs

@@ -1,0 +1,19 @@
+.header__brand{
+    polygon{
+        fill: White;
+        opacity: 0.8;
+    }
+}
+
+$nics-default-colour: #0a7ad0;
+$nics-grey: #e6e6e6;
+
+.header {
+    background: $nics-default-colour;
+    color: #fff;
+}
+
+.header.header--full-width {
+    margin-bottom: 0;
+    border-bottom-color: $nics-grey;
+}

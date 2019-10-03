@@ -277,7 +277,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  ministryofjustice-danger
 
 BUNDLED WITH
    1.17.3
